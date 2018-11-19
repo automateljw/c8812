@@ -9,7 +9,7 @@ install linux to huawei c8812 android device
 
 ## 特点（features)
 - 使能了framebuffer console， 因此通过屏幕能够看到kernel的大部分启动信息
-- rootfs采用debain，字符终端模式已经测试成功
+- rootfs采用debian，字符终端模式已经测试成功
 - 使能了usb虚拟串口，能够通过usb虚拟串口登录，测试成功
 
 ## 方法（methods)
