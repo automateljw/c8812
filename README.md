@@ -8,10 +8,9 @@ install linux to huawei c8812 android device
 从RAM中启动linux，直到加载rootfs， 由于zImage文件烧写到RAM中，因此并不会破坏原有的android系统。
 
 ## 特点（features)
-- 使能了framebuffer console， 因此通过屏幕能够看到kernel的大部分启动信息， 源码后续上传
-- rootfs采用debain，字符终端模式已经测试成功，后续上传
-- 使能了usb虚拟串口，能够通过usb虚拟串口登录，测试成功，后续上传
-- adb，adbd还未移植， 桌面系统， wifi，蓝牙等还未调试，后续再说
+- 使能了framebuffer console， 因此通过屏幕能够看到kernel的大部分启动信息
+- rootfs采用debain，字符终端模式已经测试成功
+- 使能了usb虚拟串口，能够通过usb虚拟串口登录，测试成功
 
 ## 方法（methods)
 1. 切换c8812设备到bootloader模式
